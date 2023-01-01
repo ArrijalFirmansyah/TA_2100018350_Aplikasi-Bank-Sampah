@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
 public class sampah extends Jenissampah{
+    Scanner input = new Scanner(System.in);
     int idSampah,harga,jumlah,total;
     String nama;
     @Override
     public void setData(){
+
         System.out.println("Nama Jenis Sampah : ");
-        this.nama=str.nextLine();
+        nama = input.nextLine();
         System.out.println("Harga Sampah /kg : ");
         this.harga=in.nextInt();
         System.out.println("Jumlah Sampah /kg : ");

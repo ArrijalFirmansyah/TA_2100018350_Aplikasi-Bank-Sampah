@@ -61,8 +61,6 @@ public class Transaksi {
 
         System.out.println("\n===========LAPORAN TRANSAKSI & SALDO===========");
         System.out.println("Total Sampah      : Rp." + total);
-        client.editSaldo(idClient, client.getSaldo(idClient) - total);
-        System.out.println("Sisa Saldo " +  client.getNama(idClient) + "    : Rp."+  client.getSaldo(idClient));
     }
 
 
